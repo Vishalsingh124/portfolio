@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/2dab31318c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <!-- <img src="/image.png" alt=""> -->
+        <div class="container">
+            <nav>
+                <!-- <img src="/logo5.png" class="logo"> -->
+                <h1><span> V</span>ISHALSINGH</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About Me</a> </li>
+                    <!-- <li><a href="#services">Services</a> </li> -->
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                    <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer </p>
+                <h1>Hi, I'm <span> V</span>ishalsingh<br><span>R</span>ajpurohit </h1>
+            </div>
+        </div>
+    </div>
+
+     <!-- ---------------------------------About------------------------ -->
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Assets/About.jpg" alt="" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi, I am Vishalsingh Rajpurohit dedicated Full Stack Developer with solid foundation in both frontend and backend technologies.
+                         I completed my Bachelor of Technology in Information Science and Engineering from Presidency University, Karnataka, in 2024.
+                        Prior to that, I finished my Class XII with a focus on PCMC from Tungal College in Karnataka and my Class X from Excellent School in Karnataka.
+                        
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programing Language</span><br> <img src="/Assets/skills/c.png" alt="" height="50"> <img src="/Assets/skills/java.png" alt="" height="50">  </li>
+                                <li><span>Front-End</span><br><img src="/Assets/skills/html-5.png" alt="" height="50"> <img src="/Assets/skills/css-3.png" alt="" height="50"> <img src="/Assets/skills/java-script.png" alt="" height="50"> <img src="/Assets/skills/React.png" alt="" height="50"></li>
+                                <li><span>Back-End</span><br><img src="/Assets/skills/mysql.png" alt="" height="50"> <img src="/Assets/skills/oracle-database.png" alt="" height="50"> <img src="/Assets/skills/nodejs.png" alt="" height="50"></li>
+                                <li><span>Tools</span><br><img src="/Assets/skills/github.png" alt="" height="50"> <img src="/Assets/skills/visual-studio-code.png" alt="" height="50"> <img src="/Assets/skills/Jupyter_logo.svg" alt="" height="50"> <img src="/Assets/skills/eclipse.svg" alt="" height="50">  <img src="/Assets/skills/figma.png" alt="" height="50"> <img src="/Assets/skills/poerbi.jpeg" alt="" height="50"></li>
+                                <li><span>Operating System</span><br><img src="/Assets/skills/window.png" alt="" height="50"> </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>July 2023 - October 2023</span><br>Internship at <span>Sports excitement LLC </span></li>
+                                <p>As a Front-End Developer Intern, I learned about engineering tools and fundamental browser-based technologies, including HTML, CSS, JavaScript, React.js, and GitHub. 
+                                    I participated in daily Scrum calls, contributing to the agile team’s design definition. My role involves developing applications in alignment with the latest coding
+                                     practices and industry standards while collaborating with developers to execute front-end application designs.</p>
+                            </ul>
+                            <ul>
+                                <li><span>June 2024 - July 2024</span><br>Internship at <span> iLearnings </span> </li>
+                                <p>During my internship at iLearnings, I built a Learning Management System (LMS) using the MERN stack. This system enhances 
+                                    and simplifies tasks for both students and instructors, providing an efficient platform for managing educational content and activities.
+                                     Throughout this project, I gained hands-on experience with MongoDB, Express.js, React.js, and Node.js, and learned how to create user-friendly 
+                                     interfaces, manage data effectively, and deploy scalable web applications. 
+                                    This internship was a valuable opportunity to deepen my expertise in full-stack development and deliver impactful solutions.</p>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <!-- <li><span>2020 - 2024</span><br>Presidency University</li> -->
+                                <li><span> <b> Presidency University</b></span> &nbsp &nbsp &nbsp 2020-2024 <br> Information Science Engineering <br>  <br>  Itgalpur Rajanakunte,Karnataka 560064 </li>
+                                 <!-- <li><span>2019 - 2020</span><br>Tungal college</li> -->
+                                 <li><span> <b>Tungal PU Science College</b>   </span> &nbsp &nbsp &nbsp  2018-2020<br> PCMCs <br>  <br>  Vijaypura, Karnataka 586104 </li>
+                                <!-- <li><span>2017 - 2018</span><br>Excellent school</li> -->
+                                <li><span> <b>Excellent High School</b></span>  &nbsp &nbsp &nbsp 2017-2018 <br> 10th <br>  <br>Vijaypura, Karnataka 586104 </li>
+
+                                
+
+                                <!-- <li><span>Presidency University</span>   Itgalpur Rajanakunte, Yelahanka, Bengaluru, Karnataka 560064 <span><br>2020 - 2024</span><br>Information Science Engineering</li> -->
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------services------------------- -->
+   <!-- 
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maiores incidunt repellendus, tempora eius placeat provident blanditiis excepturi officia iste. Pariatur reiciendis dolorem cum eveniet quos expedita odit molestiae alias!</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maiores incidunt repellendus, tempora eius placeat provident blanditiis excepturi officia iste. Pariatur reiciendis dolorem cum eveniet quos expedita odit molestiae alias!</p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>DSA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maiores incidunt repellendus, tempora eius placeat provident blanditiis excepturi officia iste. Pariatur reiciendis dolorem cum eveniet quos expedita odit molestiae alias!</p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+
+
+    <!-- ------------------------portfolio  My work----------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sun-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Assets/Works/work 1.png" alt="" >
+                    <div class="layer">
+                        <h3>Online Shoping</h3>
+                        <p>E-Commerce Websitewe created a responsive portfolio website with HTML, CSS and JAVASCRIPT. </p>
+                        <a href="https://ecommerce-website-bice-three.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Assets/Works/work 2.png" alt="" >
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Personal Portfolio to showcase my talent using HTML, CSS, and JavaScript. I focused on creating an interactive and responsive design to enhance user experience.</p>
+                        <a href="https://portfolio-hazel-iota-37.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Assets/Works/work 3.png" alt="" >
+                    <div class="layer">
+                    <h3>NEWS API </h3>
+                    <p>NEWS API Website project involved creating a responsive and interactive frontend using HTML, CSS, and JavaScript. The website focused on providing an intuitive search and display of NEWS details, ensuring a seamless user experience.</p>
+                    <a href="https://news-app-mu-two-88.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+
+            <div id="hidden-work-list">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/Assets/Works/work 4.png" alt="" >
+                        <div class="layer">
+                            <h3>E-commerce</h3>
+                            <p>E-commerce project using  HTML, CSS and JavaScript. In this project I have made fronted for e-commerce website.</p>
+                            <a href="https://e-commerce-blue-delta.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/Assets/Works/work 5.png" alt="" >
+                        <div class="layer">
+                            <h3>Courseregistrationform</h3>
+                            <p>Courseregistrationform <br>this project I have made for the course registration</p>
+                            <a href="https://courseregistrationform-github-io.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+                <div class="work-list">
+                   
+                    
+                </div>
+            </div>
+            <button id="seeMore" class="btn"><b>See more</b> </button>
+        </div>
+    </div>
+
+
+    <!-- -----------------------contact----------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> vishalrajpurohit759@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7349285808</p>
+                    <div class="social-icon">
+                        <a href="https://github.com/Vishalsingh124"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vishalsingh-rajpurohit-2262ba241/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/vishal_rajpurohit759/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=" https://wa.me/qr/WUCKWABPKU54E1 "><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                    <a href="/Assets/Vishal's Resume.pdf" download class="btn btn2">Download CV</a>  
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message" ></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @ Vishalsingh. <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+    <!-- -------------------------java script----------------------------------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        const seeMore =document.getElementById('seeMore');
+        const hiddenworklist = document.getElementById('hidden-work-list');
+
+        seeMore.addEventListener('click', function(){
+            if (hiddenworklist.style.display=== 'none' || hiddenworklist.style.display=== ''){
+                hiddenworklist.style.display= 'block';
+                seeMore.textContent = 'See Less';
+            }
+            else{
+                hiddenworklist.style.display === 'none';
+                seeMore.textContent = 'See More';
+            }
+        });
+
+        function showMore(){
+            hiddenworklist.style.display= 'block';
+            seeMore.textContent='See Less';
+            seeMore.onclick = showLess;
+            }
+
+            function showLess(){
+               hiddenworklist.style.display = 'none';
+               seeMore.textContent ='See More';
+               seeMore.onclick = showMore;
+            }
+
+            seeMore.onclick = showMore;
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz3gYdHQzhGJty1PmSoKGpU6qlCmOJa3T12S37IyhxXx7m2NyMvA-jeJOW3AyC163VpUg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML=""
+                
+            }, 5000);
+            form.reset()
+     })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
+
+
+<!-- contact form github link  -->
+<!-- https://github.com/jamiewilson/form-to-google-sheets -->
